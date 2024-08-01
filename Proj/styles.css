@@ -1,0 +1,122 @@
+ *{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+        footer>div>ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+        footer>div>ul>li{
+            color: white;
+            font-size: 25px;
+        }
+        footer>div>ul>li>a{
+            font-weight: lighter;
+        }
+        footer>div>ul>li>div>input::placeholder{
+            font-size: 20px;
+            color: #FFF;
+            opacity: 0.8;
+            font-weight:400;
+        }
+        body{
+            background-color: #02061A;
+            font-family: "Outfit", sans-serif;
+        }
+        nav{
+            margin-top: 5vh;
+            margin-left: 12vw;
+            display: flex;
+            gap: 50vw;
+            font-size: 27px;
+        }
+        .ul1{
+            display: flex;
+            list-style: none;
+            gap: 4vw;
+            font-size: 20px;
+        }
+        .ul2{
+            display: flex;
+            list-style: none;
+            font-size: 20px;
+            border: 1px solid #5BD2BD;
+        }
+        .ul2>li>button{
+            width: 213px;
+            height: 125px;
+            font-size: 27px;
+            border: none;
+            background-color: #23263C;
+        }
+        .ul2>li>button>a{
+            font-size: 27px;
+            color: #FFF;
+            opacity: 0.5;
+        }
+        nav>p,a{
+            color: white;
+            text-decoration: none;
+        }
+        .rays{
+            position: absolute;
+            border-radius: 50%;
+            width: 590px;
+            height: 594px;
+            background-color: rgba(84, 197, 173, 0.856);
+            filter: blur(230px);
+            top: -250px;
+            left: -100px;
+            z-index: -1;
+        }
+        .contd{
+            display: flex;
+            width: 1035.16px;
+            height: 498px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+        }
+        .contd>p{
+            width: 522px;
+            height: 233px;
+            color: #FFF;
+            font-size: 60px;
+        }
+        .btnclass{
+            width: 256px;
+            height: 95px;
+            border-radius: 50px;
+            border: 3px solid #23263C;
+            color: white;
+            font-size: 27px;
+        }
+        .liomg{
+            width: 467.417px;
+            height: 461.312px;
+            filter: drop-shadow(24px 20px 20px #47b0b8) contrast(1.5) sepia(0.6) saturate(2);
+            transform: skewX(-7deg);
+        }
+        .card{
+            position: relative;
+            width: 345px;
+            height: 360px;
+            background-color: #24293F;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+            justify-content: center;
+        }
+        .card>h2{
+            color: #FFF;
+            font-size: 40px;
+        }
+        .card>p{
+            color: #FFF;
+            font-size: 20px;
+        }
